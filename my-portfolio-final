@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Bùi Quốc Việt, portfolio, sinh viên CNTT, Đại học Đại Nam, lập trình viên, giáo viên IT, portfolio cá nhân" />
+    <meta name="description" content="Chào mừng đến với portfolio của Bùi Quốc Việt - Sinh viên Công Nghệ Thông Tin tại Đại học Đại Nam" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Bùi Quốc Việt</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- navbar -->
+<header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> Việt</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#education">Học vấn</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- hero section -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <h2>Xin chào,<br/> Mình là <span>Bùi Quốc Việt</span></h2>
+        <p>Mình là <span class="typing-text">sinh viên Công Nghệ Thông Tin</span></p>
+        <a href="#about" class="btn"><span>Giới thiệu</span>
+            <i class="fas fa-arrow-circle-down"></i>
+        </a>
+
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a class="facebook" aria-label="Facebook" href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="envelope" aria-label="Email" href="mailto:quocviet1070@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+</section>
+
+<!-- about section -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> Về <span>Bản thân</span></h2>
+    
+    <div class="row">
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="profile">
+        </div>
+        <div class="content">
+            <h3>Mình là Bùi Quốc Việt</h3>
+            <span class="tag">Sinh viên Công Nghệ Thông Tin</span>
+            
+            <p>Mình là một người khiêm tốn, hiền lành, yêu thích công nghệ và đặc biệt là chơi game 🎮.  
+            Hiện tại, mình đang là sinh viên Công Nghệ Thông Tin tại Đại học Đại Nam.  
+            Mục tiêu của mình trong tương lai là trở thành một <b>giáo viên IT</b> để truyền cảm hứng cho các thế hệ trẻ yêu công nghệ.</p>
+            
+            <div class="box-container">
+                <div class="box">
+                    <p><span>Email : </span> quocviet1070@gmail.com</p>
+                    <p><span>Địa chỉ : </span> Thôn Thị Nguyên, xã Dân Hòa,  Thanh Oai, Hà Nội</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- education section -->
+<section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> Quá trình <span>Học tập</span></h1>
+
+    <p class="qoute">"Giáo dục là hành trình rèn luyện tâm trí để biết cách tư duy, không chỉ là việc ghi nhớ thông tin."</p>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sinh viên Công Nghệ Thông Tin</h3>
+                <p>Trường Đại học Đại Nam</p>
+                <h4>Đang theo học</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section -->
+<section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-headset"></i> Liên <span>Hệ</span></h2>
+
+    <div class="container">
+        <div class="content">
+            <div class="image-box">
+                <img draggable="false" src="./assets/images/contact1.png" alt="">
+            </div>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Họ và tên" required>
+                        <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Email" required>
+                        <i class='fas fa-envelope'></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Số điện thoại">
+                        <i class='fas fa-phone-alt'></i>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Lời nhắn..." name="message" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Gửi <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Bùi Quốc Việt</h3>
+            <p>Cảm ơn bạn đã ghé thăm website cá nhân của mình.  
+            Hãy kết nối với mình qua mạng xã hội để cùng chia sẻ và học hỏi nhé 💙</p>
+        </div>
+
+        <div class="box">
+            <h3>Liên kết nhanh</h3>
+            <a href="#home"><i class="fas fa-chevron-circle-right"></i> Trang chủ</a>
+            <a href="#about"><i class="fas fa-chevron-circle-right"></i> Giới thiệu</a>
+            <a href="#education"><i class="fas fa-chevron-circle-right"></i> Học vấn</a>
+            <a href="#contact"><i class="fas fa-chevron-circle-right"></i> Liên hệ</a>
+        </div>
+
+        <div class="box">
+            <h3>Thông tin liên hệ</h3>
+            <p><i class="fas fa-envelope"></i> quocviet1070@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> Thôn Thị Nguyên, xã Dân Hòa, Thanh Oai, Hà Nội</p>
+            <div class="share">
+                <a href="https://facebook.com" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+                <a href="mailto:quocviet1070@gmail.com" class="fas fa-envelope" aria-label="Email" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="credit">Thiết kế với <i class="fa fa-heart pulse"></i> bởi <a href="#">Bùi Quốc Việt</a></h1>
+</section>
+
+<!-- scroll top -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
